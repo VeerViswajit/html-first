@@ -4,25 +4,92 @@
 <head>
 <meta charset="UTF-8">
 <title>VEER FIRST</title>
+<link rel="icon" href="./logo.jpeg" type="image/x-icon"/>
 <style>
     html{
-        background-color: lightsteelblue;
+        background-image: linear-gradient(to bottom right,rgb(58, 58, 170),rgb(193, 214, 236));
+        height:100%;
         font-weight: 300;
         font-style: oblique;
         font-size: larger;
         text-align: justify;
     }
+    .Second{
+        width:700px;
+        height: auto;
+        margin-left: 10px;
+        padding: 10px;
+        margin: 3px;
+        border: solid black;
+    }
     img{
         float: left;
         margin-right: 30px;
         margin-bottom: 30px;
+        margin: 3px;
+        padding: 3px;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     footer{
         clear:both;
     }
-    .list1{
-        margin-left: 30px;
+    .movie {
+        border: 1px solid #ccc;
+        border-radius: 5%;
+        padding: 10px;
+        justify-content: center;
+
     }
+
+   
+    .First{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .Second {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    button{
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    footer{
+        align-items: center;
+        justify-content: center;
+    }
+    .social{
+        border-radius: 15px;
+        justify-content: space-evenly;
+        gap:30px;
+
+    }
+    .social1{
+        width: 50px;
+        height: 50px;
+        transition: width 1s, height 2s;
+    }
+
+    .social1:hover {
+        width: 75px;
+        height: 75px;
+    }
+
 
 </style>
 </head>
@@ -33,7 +100,8 @@
 <hr/>
 <br>
 <div class="First">
-<a href="./second page.html"><img src="./21.jpg" height="300" alt="Me sitting on a rock"/></a>
+<a href="./second page.html"><img src="./21.jpg" height="350"  alt="Me sitting on a rock"/></a>
+<div class="Second">
 <h3> I am Veer Viswajit.N, it's my amateur attempt for web dev... To tell About myself,</h3>
 <ul>
 <div class="list1">
@@ -45,10 +113,24 @@
 <li>I consider myself to be having a personality of an <a href="https://dictionary.cambridge.org/dictionary/english/ambivert">Ambivert</a> </li>
 
 </div>
+</div>
 </ul>
+<div class="movie">
+    <img src="./interstellar.jpg" alt="interstellar" style="width:100%">
+    <div class="container">
+      <p><a href="./Third webpage.html">My list of recommendations for Movies and series</a></p>
+    </div>
+
+</div>
 </div>
 <footer>
-<a href="./Third webpage.html">My list of recommendations for Movies and Series</a>
+<div class="social">
+    <h4>My Social Media Handles:</h4>
+    <ul style="list-style: none;">
+    <li> <a href="https://www.instagram.com/veerviswajit/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><img src="./insta.png" alt="Instagram logo" class="social1" height="50"/></a></li>
+    <li> <a href="https://www.linkedin.com/in/veer-viswajit-366887275"><img src="./linkedin.png" alt="linkedin logo" height="50" class="social1" style="margin-left: 18px;"/></a></li>
+    </ul>
+</div>
 </footer>
 </body>
 
