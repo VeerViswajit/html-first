@@ -4,28 +4,52 @@
 <head>
 <meta charset="UTF-8">
 <title>Veer's Portfolio</title>
+<link rel="icon" href="./logo.jpeg" type="image/x-icon"/>
+
 <style>
-html{
-    background-color: lightsteelblue;
-    font-weight: 300;
-    font-style: oblique;
-    font-size: larger;
-    text-align: justify;
-}
-*{
-  background-color: lavender;
-  margin: 10px;
- }
-h1{
-      font-family: Georgia,Verdana;
-  }
-h2{
-    font-family: Georgia,Verdana;
-  }
-h3{
-  margin-left: 3px;
-  }
-</style>
+    html{
+        background-color: lightsteelblue;
+        font-weight: 300;
+        font-style: oblique;
+        font-size: larger;
+        text-align: justify;
+    }
+    *{
+    background-color: lavender;
+    margin: 10px;
+    }
+    h1{
+        font-family: Georgia,Verdana;
+    }
+    h2{
+        font-family: Georgia,Verdana;
+    }
+    h3{
+        margin-left: 3px;
+    }
+    .button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 3px 2px;
+        transition-duration: 0.4s;
+         cursor: pointer;
+    }
+    .b1{
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+    .b1:hover{
+        background-color: #008CBA;
+        color: white;
+    }
+    </style>
 </head>
 
 <body>
@@ -44,8 +68,8 @@ h3{
 <li>Ford v Ferrari</li>
 <li>The Good,the Bad and the ugly</li>
 </ol>
+<a href="./triology.html">Check Out The Celebrated Triologies of All Time</a>
 <br>
-<a href="./triology.html">Check Out The Top 3 Triologies Of All Time</a>
 <h3>Tamil</h3>
 <ol>
 <li>Devar Magan</li>
@@ -68,7 +92,7 @@ h3{
 <li>The Big Bang Theory</li>
 </ol>
 
-
+<button onclick="history.back()" class="button b1">Go Back</button>
 </body>
 
 </html>
