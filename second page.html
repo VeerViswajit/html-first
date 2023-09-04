@@ -4,13 +4,37 @@
 <head>
 <meta charset="UTF-8">
 <title>VEER II page</title>
+<link rel="icon" href="./logo.jpeg" type="image/x-icon"/>
+
 <style>
 html{
-    background-color: lightsteelblue;
+    background-image: linear-gradient(to bottom right,rgb(58, 58, 170),rgb(193, 214, 236));
     font-weight: 300;
     font-style: oblique;
     font-size: larger;
     text-align: justify;
+}
+.button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 3px 2px;
+        transition-duration: 0.4s;
+         cursor: pointer;
+}
+.b1{
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+}
+.b1:hover{
+        background-color: #008CBA;
+        color: white;
 }
 </style>
 </head>
@@ -22,7 +46,9 @@ html{
 <h3>Me searching for the bat signal(I am Batman)</h3>
 <br>
 <img src="./28.jpg" height="300" alt="Me pointing at the sky"/>
-
+<footer>
+<button onclick="history.back()" class="button b1">Go Back</button>
+</footer>
 </body>
 
 </html>
