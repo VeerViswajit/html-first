@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>MOVIE TRIOLOGIES</title>
+    <link rel="icon" href="./logo.jpeg" type="image/x-icon"/>
+
     <style>
         html{
-            background-color: navy;
+            background-image:linear-gradient(to bottom right,lightsteelblue,darkblue);
         }
         @media(min-width:750px){
             .all{
@@ -20,7 +22,7 @@
             text-align: center;
             font-size: 3rem;
             font-family: fantasy;
-            color: rgb(222, 210, 210);
+            color: white;
             position: relative;
         }
         .container{
@@ -96,6 +98,28 @@
             height:100%;
             width: 100%;
         }
+    .button{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 3px 2px;
+        transition-duration: 0.4s;
+         cursor: pointer;
+    }
+    .b1{
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+    .b1:hover{
+        background-color: #008CBA;
+        color: white;
+    }
     </style>
 </head>
 
@@ -155,6 +179,8 @@
 </div>
 </div>
 
-
+<footer>
+    <button onclick="history.back()" class="button b1" style="color: red;">EXIT</button>
+</footer>
 </body>
 </html>
